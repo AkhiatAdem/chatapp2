@@ -1,7 +1,7 @@
 
 
         
-const socket = io('http://localhost:5173');
+const socket = io('https://chatapp2-e33x.onrender.com');
 
 socket.on('connect', () => {
     const login = document.querySelector(".login");
