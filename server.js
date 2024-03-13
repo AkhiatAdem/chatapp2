@@ -16,6 +16,7 @@ io.on("connection", (socket) => {
     socket.on("h", (message,username) => {
         
         io.emit('r',message,username);
+
     });
     socket.on('x',(message)=>{
         io.emit('xr',message);

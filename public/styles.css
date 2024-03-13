@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+.login , .chat{
+    width: 80vw;
+
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4) ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding-bottom: 50px;
+    position: relative;
+  
+
+}
+.login h3{
+    color: rgb(12, 116, 24);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+.username ,#input{
+    
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid #8a8a8a;
+    height: 2rem;
+    margin-top: 3%;
+    
+    margin-left: 40%;
+    
+    
+
+}
+.log ,#button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 20%;
+    height: 2rem;
+    background-color: rgb(114, 225, 127);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.15s;
+
+}
+.log:hover ,#button:hover{
+    opacity: 0.7;
+
+}
+body{
+    background-color: rgb(114, 225, 127);
+    
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+}
+.chat{
+    padding-bottom: 50px;
+    min-height: 50vh;
+}
+#button{
+    display: inline;
+    width: 10vw;
+}
+#input{
+    width: 65vw;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: 15px;
+
+
+}
+.msgdiv{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.message{
+    font-size: 15px;
+    font-weight: 300;
+    color: #626060;
+    
+}
+.user{
+    font-size: 17px;
+    font-weight: 300;
+}
